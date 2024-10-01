@@ -47,7 +47,7 @@ function App() {
       const resValCountryName = await resCountryName.json();
       const countryName = resValCountryName[0].name.common;
 
-      // const flag = `https://flagsapi.com/${countryCode}/shiny/64.png`;
+      // const flager = `https://flagsapi.com/${countryCode}/shiny/64.png`;
 
       const params = {
         username: dateString,
