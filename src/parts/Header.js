@@ -10,8 +10,8 @@ import { Fade } from 'react-awesome-reveal';
 import { Transition } from '@headlessui/react';
 import { useLocation } from 'react-router-dom';
 
-import Button from '../elements/Button';
-import BrandIcon from './BrandIcon';
+import Button from '../elements/Button/index.js';
+import BrandIcon from './BrandIcon.js';
 
 export default function Header() {
   const [isCollapse, setIsCollapse] = useState(false);

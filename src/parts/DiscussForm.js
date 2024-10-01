@@ -15,8 +15,8 @@ import { ToastContainer, toast } from 'react-toastify';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import 'react-toastify/dist/ReactToastify.css';
 
-import { Form } from 'elements/Form';
-import Button from 'elements/Button';
+import { Form } from 'elements/Form/index.js';
+import Button from 'elements/Button/index.js';
 
 export const DiscussForm = (actions) => {
   const { data, resetForm } = actions;

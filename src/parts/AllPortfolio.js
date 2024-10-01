@@ -12,7 +12,7 @@ import {
   Tab, Tabs, TabList, TabPanel,
 } from 'react-tabs';
 
-import Button from 'elements/Button';
+import Button from 'elements/Button/index.js';
 
 export default function AllPortfolio({ data }) {
   const mobile = data.filter((item) => item.type === 'Mobile Apps');

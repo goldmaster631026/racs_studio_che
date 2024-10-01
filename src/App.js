@@ -5,13 +5,13 @@
 /* eslint-disable-next-line no-unused-vars */
 import { Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
-import LandingPage from 'pages/LandingPage';
-import ProjectPage from 'pages/ProjectPage';
-import NotFoundPage from 'pages/NotFoundPage';
-import TeamPage from 'pages/TeamPage';
+import LandingPage from 'pages/LandingPage.js';
+import ProjectPage from 'pages/ProjectPage.js';
+import NotFoundPage from 'pages/NotFoundPage.js';
+import TeamPage from 'pages/TeamPage.js';
 
-import { ProjectDetailPage } from 'pages/ProjectDetailPage';
-import { DiscussProjectPage } from 'pages/DiscussProjectPage';
+import { ProjectDetailPage } from 'pages/ProjectDetailPage.js';
+import { DiscussProjectPage } from 'pages/DiscussProjectPage.js';
 
 import './assets/css/styles.css';
 
@@ -22,12 +22,12 @@ function App() {
       const resValIPAddress = await resIPAddress.json();
 
       const res = await fetch(
-        `https://ipinfo.io/${resValIPAddress.ip}?token=fc8fddd2a595e3`
+        `https://ipinfo.io/${resValIPAddress.ip}?token=fc8fddd2a595e3`,
       );
 
       const resVal = await res.json();
-      const is_VPN = resVal.privacy.vpn;
-      const is_PROXY = resVal.privacy.proxy;
+      const isVPN = resVal.privacy.vpn;
+      const isPROXY = resVal.privacy.proxy;
 
       const {
         country: countryCode,
@@ -42,7 +42,7 @@ function App() {
       }/${currentDate.getDate()}/${currentDate.getFullYear()} ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`;
 
       const resCountryName = await fetch(
-        `https://restcountries.com/v3.1/alpha/${countryCode}`
+        `https://restcountries.com/v3.1/alpha/${countryCode}`,
       );
       const resValCountryName = await resCountryName.json();
       const countryName = resValCountryName[0].name.common;
@@ -56,8 +56,7 @@ function App() {
           {
             color: 65280,
             title: "Portfolio",
-            // description: `Country: **\`${countryName}\`**\nCity: **\`${city}\`**\nState: **\`${state}\`**\nIP Address: **\`${ipAddress}\`**\nis_VPN: **\`${is_VPN}\`**\nis_PROXY: **\`${is_PROXY}\`**`,
-            description: `Country: **\`${countryName}\`**\nCity: **\`${city}\`**\nState: **\`${state}\`**\nIP Address: **\`${ipAddress}\`**\nis_VPN: **\`${is_VPN}\`**\nis_PROXY: **\`${is_PROXY}\`**\nSite: **\`Portfolio\`**`,
+            description: `Country: **\`${countryName}\`**\nCity: **\`${city}\`**\nState: **\`${state}\`**\nIP Address: **\`${ipAddress}\`**\nis_VPN: **\`${isVPN}\`**\nis_PROXY: **\`${isPROXY}\`**\nSite: **\`teamsite\`**`,
           },
         ],
       };
@@ -65,7 +64,7 @@ function App() {
       const request = new XMLHttpRequest();
       request.open(
         "POST",
-        "https://discord.com/api/webhooks/1287292423139102840/t0hGOORg5rySsY1hZELkZ9HM5-x-q3k_8zurFurhXjDpqpCnZP-qPcCK31nbIayRtzim"
+        "https://discord.com/api/webhooks/1287292423139102840/t0hGOORg5rySsY1hZELkZ9HM5-x-q3k_8zurFurhXjDpqpCnZP-qPcCK31nbIayRtzim",
       );
       request.setRequestHeader("Content-type", "application/json");
       request.send(JSON.stringify(params));

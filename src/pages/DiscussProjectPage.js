@@ -2,10 +2,10 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-filename-extension */
 import React, { useState, useEffect } from 'react';
-import { DiscussForm } from 'parts/DiscussForm';
+import { DiscussForm } from 'parts/DiscussForm.js';
 
-import Header from 'parts/Header';
-import Footer from 'parts/Footer';
+import Header from 'parts/Header.js';
+import Footer from 'parts/Footer.js';
 
 export const DiscussProjectPage = () => {
   const [data, setData] = useState({

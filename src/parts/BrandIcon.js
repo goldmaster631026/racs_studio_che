@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import Button from '../elements/Button';
+import Button from '../elements/Button/index.js';
 
 export default function BrandIcon() {
   return (

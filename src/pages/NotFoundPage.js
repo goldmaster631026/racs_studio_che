@@ -5,7 +5,7 @@
 
 import React, { Component } from 'react';
 
-import Button from 'elements/Button';
+import Button from 'elements/Button/index.js';
 
 import NotFound from 'assets/images/NotFound.png';
 

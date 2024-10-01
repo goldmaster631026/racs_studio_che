@@ -9,7 +9,7 @@ import Fade from 'react-awesome-reveal';
 
 import NotFound from 'assets/images/NotFound.png';
 
-import Button from 'elements/Button';
+import Button from 'elements/Button/index.js';
 
 export default function PortfolioDetail({ data }) {
   if (data === null) {

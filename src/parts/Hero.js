@@ -5,7 +5,7 @@ import React from "react";
 
 import { Fade } from "react-awesome-reveal";
 
-import Button from "../elements/Button";
+import Button from "../elements/Button/index.js";
 
 import BuildWebsite from "../assets/images/hero/BuildWebsite.png";
 

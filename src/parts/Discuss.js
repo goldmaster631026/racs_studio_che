@@ -6,7 +6,7 @@ import React from 'react';
 
 import { Fade } from 'react-awesome-reveal';
 
-import Button from '../elements/Button';
+import Button from '../elements/Button/index.js';
 
 export default function Discuss() {
   return (

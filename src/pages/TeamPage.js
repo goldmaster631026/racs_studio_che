@@ -3,12 +3,12 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
 
-import Header from 'parts/Header';
-import HeroTeam from 'parts/HeroTeam';
-import AllTeam from 'parts/AllTeam';
-import Footer from 'parts/Footer';
+import Header from 'parts/Header.js';
+import HeroTeam from 'parts/HeroTeam.js';
+import AllTeam from 'parts/AllTeam.js';
+import Footer from 'parts/Footer.js';
 
-import { TeamMembers } from 'json/landingPageData';
+import { TeamMembers } from 'json/landingPageData.js';
 
 export default class TeamPage extends Component {
   componentDidMount() {

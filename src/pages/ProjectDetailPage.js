@@ -4,12 +4,12 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { useEffect } from 'react';
 
-import Header from 'parts/Header';
+import Header from 'parts/Header.js';
 import { useParams } from 'react-router-dom';
-import PortfolioDetail from 'parts/PortfolioDetail';
-import Footer from 'parts/Footer';
+import PortfolioDetail from 'parts/PortfolioDetail.js';
+import Footer from 'parts/Footer.js';
 
-import { Portfolios } from 'json/landingPageData';
+import { Portfolios } from 'json/landingPageData.js';
 
 export const ProjectDetailPage = () => {
   const { id } = useParams();

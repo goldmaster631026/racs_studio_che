@@ -6,15 +6,15 @@ import React, { Component } from 'react';
 
 import {
   Services, Portfolios, Advantages, Testimonials,
-} from 'json/landingPageData';
-import Header from 'parts/Header';
-import Hero from 'parts/Hero';
-import Service from 'parts/Service';
-import Portfolio from 'parts/Portfolio';
-import Advantage from 'parts/Advantage';
-import Testimonial from 'parts/Testimonial';
-import Discuss from 'parts/Discuss';
-import Footer from 'parts/Footer';
+} from 'json/landingPageData.js';
+import Header from 'parts/Header.js';
+import Hero from 'parts/Hero.js';
+import Service from 'parts/Service.js';
+import Portfolio from 'parts/Portfolio.js';
+import Advantage from 'parts/Advantage.js';
+import Testimonial from 'parts/Testimonial.js';
+import Discuss from 'parts/Discuss.js';
+import Footer from 'parts/Footer.js';
 
 export default class LandingPage extends Component {
   componentDidMount() {
