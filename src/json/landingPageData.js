@@ -179,7 +179,7 @@ export const TeamMembers = [
   },
   {
     name: 'Anthony Montuya',
-    position: 'HRD',
+    position: 'CGO',
     imageUrl: HRD,
   },
   {
