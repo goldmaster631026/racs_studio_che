@@ -28,7 +28,7 @@ import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 import CEO from '../assets/images/TeamMembers/CEO.jpg';
 import HRD from '../assets/images/TeamMembers/HRD.jpg';
 import Finance from '../assets/images/TeamMembers/Finance.jpg';
-import ProjectManager from '../assets/images/Project-manager.jpg';
+import ProjectManager from '../assets/images/TeamMembers/Project-manager.jpg';
 import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
 import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
 import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
@@ -190,7 +190,7 @@ export const TeamMembers = [
   {
     name: 'Andres Ryan',
     position: 'Project Manager',
-    imageUrl: "",
+    imageUrl: ProjectManager,
   },
   {
     name: 'Jim Hendrix',
