@@ -212,21 +212,21 @@ export const TeamMembers = [
     position: 'Back-end Developer',
     imageUrl: Backend2,
   },
-  {
-    name: 'Bill Markinson',
-    position: 'Mobile Developer',
-    imageUrl: Mobile1,
-  },
-  {
-    name: 'Igor Kavarov',
-    position: 'Mobile Developer',
-    imageUrl: Mobile2,
-  },
-  {
-    name: 'Freddie Curl',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX2,
-  },
+  // {
+  //   name: 'Bill Markinson',
+  //   position: 'Mobile Developer',
+  //   imageUrl: Mobile1,
+  // },
+  // {
+  //   name: 'Igor Kavarov',
+  //   position: 'Mobile Developer',
+  //   imageUrl: Mobile2,
+  // },
+  // {
+  //   name: 'Freddie Curl',
+  //   position: 'UI/UX Designer',
+  //   imageUrl: UIUX2,
+  // },
   {
     name: 'Monica Lovegood',
     position: 'UI/UX Designer',
