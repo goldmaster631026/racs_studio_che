@@ -214,7 +214,7 @@ export const TeamMembers = [
   },
   // {
   //   name: 'Bille Markinson',
-  //   position: 'Mobile Developer',
+  //   position: 'Mobile  Developer',
   //   imageUrl: Mobile1,
   // },
   // {
