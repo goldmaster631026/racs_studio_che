@@ -188,7 +188,7 @@ export const TeamMembers = [
     imageUrl: Finance,
   },
   {
-    name: 'Tom Jimmy',
+    name: 'Andres Ryan',
     position: 'Project Manager',
     imageUrl: ProjectManager,
   },
