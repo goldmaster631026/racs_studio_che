@@ -33,10 +33,10 @@ import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
 import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
 import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
 import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
-import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
-import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
+// import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
+// import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
 import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
-import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
+// import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 
 export const Services = [
   {
