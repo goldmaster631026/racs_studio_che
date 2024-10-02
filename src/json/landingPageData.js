@@ -24,7 +24,7 @@ import Sasha from '../assets/images/Testimonials/Sasha.jpg';
 import Reiner from '../assets/images/Testimonials/Reiner.jpg';
 import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 
-// TeamMembers
+// TeamMembers D
 import CEO from '../assets/images/TeamMembers/CEO.jpg';
 import HRD from '../assets/images/TeamMembers/HRD.jpg';
 import Finance from '../assets/images/TeamMembers/Finance.jpg';
