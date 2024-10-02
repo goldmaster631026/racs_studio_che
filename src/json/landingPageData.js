@@ -173,7 +173,7 @@ export const Testimonials = [
 
 export const TeamMembers = [
   {
-    name: 'Rach David',
+    name: 'Andres Ryan',
     position: 'CEO',
     imageUrl: CEO,
   },
@@ -188,7 +188,7 @@ export const TeamMembers = [
     imageUrl: Finance,
   },
   {
-    name: 'Andres Ryan',
+    name: 'Tim David',
     position: 'Project Manager',
     imageUrl: ProjectManager,
   },
@@ -213,7 +213,7 @@ export const TeamMembers = [
     imageUrl: Backend2,
   },
   // {
-  //   name: 'Bill Markinson',
+  //   name: 'Bille Markinson',
   //   position: 'Mobile Developer',
   //   imageUrl: Mobile1,
   // },
