@@ -26,7 +26,7 @@ import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 
 // TeamMembers D
 import CEO from '../assets/images/TeamMembers/CEO.jpg';
-import HRD from '../assets/images/TeamMembers/HRD.jpg';
+// import HRD from '../assets/images/TeamMembers/HRD.jpg';
 import Finance from '../assets/images/TeamMembers/Finance.jpg';
 import ProjectManager from '../assets/images/TeamMembers/Project-manager.jpg';
 import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
@@ -177,11 +177,11 @@ export const TeamMembers = [
     position: 'CEO',
     imageUrl: CEO,
   },
-  {
-    name: '',
-    position: 'CGO',
-    imageUrl: DFE,
-  },
+  // {
+  //   name: 'L',
+  //   position: 'CGO',
+  //   imageUrl: "",
+  // },
   {
     name: 'Granger Watterson',
     position: 'Finance',
