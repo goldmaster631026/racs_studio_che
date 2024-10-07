@@ -37,7 +37,7 @@ import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
 // import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
 import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
 // import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
-// import DFE from
+// import DFE fr
 export const Services = [
   {
     title: 'Web Development',
@@ -178,9 +178,9 @@ export const TeamMembers = [
     imageUrl: CEO,
   },
   {
-    name: 'Anthony Montuya',
+    name: '',
     position: 'CGO',
-    imageUrl: HRD,
+    imageUrl: "",
   },
   {
     name: 'Granger Watterson',
