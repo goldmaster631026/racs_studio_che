@@ -223,7 +223,7 @@ export const TeamMembers = [
   //   imageUrl: Mobile2,
   // },
   // {
-  //   name: 'Freddie Curl',
+  //   name: 'Freddiel Curl',
   //   position: 'UI/UX Designer',
   //   imageUrl: UIUX2,
   // },
