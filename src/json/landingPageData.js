@@ -178,7 +178,7 @@ export const TeamMembers = [
     imageUrl: CEO,
   },
   {
-    name: 'DE',
+    name: '',
     position: 'CGO',
     imageUrl: "",
   },
