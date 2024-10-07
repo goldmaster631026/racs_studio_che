@@ -180,7 +180,7 @@ export const TeamMembers = [
   {
     name: '',
     position: 'CGO',
-    imageUrl: "",
+    imageUrl: DFE,
   },
   {
     name: 'Granger Watterson',
