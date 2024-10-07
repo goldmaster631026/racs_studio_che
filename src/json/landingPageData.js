@@ -213,7 +213,7 @@ export const TeamMembers = [
     imageUrl: Backend2,
   },
   // {
-  //   name: 'Bille Markinson',
+  //   name: 'Billef Markinson',
   //   position: 'Mobile  Developer',
   //   imageUrl: Mobile1,
   // },
